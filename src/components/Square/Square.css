@@ -1,0 +1,9 @@
+.square {
+    background: rgb(129, 194, 25);
+    border: 2px solid rgb(141, 141, 206);
+    font-size: 25px;
+    font-weight: 800px;
+    cursor: pointer;
+    outline: none;
+    color: blanchedalmond;
+};

@@ -1,0 +1,19 @@
+:root {
+    --boards: 3;
+    }
+
+.notice{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 29, 29);
+    margin: 5px 1px 10px;
+}
+    
+.board {
+    display: grid;
+    grid-template-columns: repeat(var(--boards), 1fr);
+    grid-gap: 1px;
+    margin: 100px
+}
